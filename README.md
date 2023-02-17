@@ -14,6 +14,8 @@
 
     - Las imagenes no tienen transiciones al aparecer/desaparecer
 
+    - Adaptable a dispositivos moviles
+
 Puedes ver el resultado [aqui](https://raymundosantorski.github.io/gallery/).
 
 ![Imagen de muestra](./screenshot.png)
