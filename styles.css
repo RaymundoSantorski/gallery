@@ -20,10 +20,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .image>img{
     height: 100%;
+    width: auto;
+}
+
+@media (orientation: portrait){
+    .image>img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 .button{
