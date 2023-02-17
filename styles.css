@@ -14,7 +14,7 @@
     display: none;
 }
 
-.active{
+.image.active{
     width: 100%;
     height: 100%;
     display: flex;
@@ -32,6 +32,11 @@
     border-radius: 50%;
     background-color: black;
     position: fixed;
+    transition: background-color .1s;
+}
+
+.button.active{
+    background-color: white;
 }
 
 .lastButton{
